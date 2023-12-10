@@ -4,7 +4,7 @@ const date = new Date();
 // 指定の表記にするためデータを取り出し
 const today = {
     year: date.getFullYear(),
-    month: date.getMonth(),
+    month: date.getMonth() + 1,
     day: date.getDate()
 };
 
